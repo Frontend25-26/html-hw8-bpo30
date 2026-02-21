@@ -1,21 +1,251 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW8</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <div class="Content">
-    <header id="header">Header</header>
-    <section id="about">About</section>
-    <section id="education">Education</section>
-    <section id="experience">Work Experience</section>
-    <section id="skills">Skills</section>
-    <section id="contacts">Contacts</section>
-    <footer id="footer">Footer</footer>
+    <header id="header">
+        <div class="logo">
+            <img src="./assets/logos/Logo.svg" alt="Logo">
+        </div>
+        <nav class="nav">
+            <a href="#about">About me</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Work Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2 class="about-text">
+            Hello!<br>
+            My name is Alex Smith<br>
+            I'm creative front-end developer
+        </h2>
+        <div class="Image about-image"></div>
+    </section>
+
+    <section id="education">
+        <h2>
+            Education
+        </h2>
+
+        <section class="edu-group">
+            <div class="edu-card">
+                <div class="edu-info">
+                    <h3 class="header">Kingston university</h3>
+                    <div class="degree text-secondary">Master's degree - Software Engineering</div>
+                </div>
+                <div class="year text-primary">2019 - 2021</div>
+            </div>
+
+            <div class="edu-card">
+                <div class="edu-info">
+                    <h3 class="header">Kingston university</h3>
+                    <div class="degree text-secondary">Bachelor's degree - Computer Engineering</div>
+                </div>
+                <div class="year text-primary">2015 - 2019</div>
+            </div>
+
+            <div class="edu-card">
+                <div class="edu-info">
+                    <h3 class="header">Westminster School</h3>
+                    <div class="degree text-secondary">Diploma's degree - Mathematics</div>
+                </div>
+                <div class="year text-primary">2013 - 2015</div>
+            </div>
+
+            <div class="edu-card">
+                <div class="edu-info">
+                    <h3 class="header">Kingston university</h3>
+                    <div class="degree text-secondary">Master's degree - Software Engineering</div>
+                </div>
+                <div class="year text-primary">2019 - 2021</div>
+            </div>
+
+            <div class="edu-card">
+                <div class="edu-info">
+                    <h3 class="header">Kingston university</h3>
+                    <div class="degree text-secondary">Bachelor's degree - Computer Engineering</div>
+                </div>
+                <div class="year text-primary">2015 - 2019</div>
+            </div>
+
+
+            <div class="edu-card">
+                <div class="edu-info">
+                    <h3 class="header">Westminster School</h3>
+                    <div class="degree text-secondary">Diploma's degree - Mathematics</div>
+                </div>
+                <div class="year text-primary">2013 - 2015</div>
+            </div>
+        </section>
+
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="tabs">
+            <button class="tab">Apple</button>
+            <button class="tab">Microsoft</button>
+            <button class="tab">Facebook</button>
+        </div>
+        <div class="experience-content">
+            <div class="experience-text">
+                <div class="job-header">
+                    <h3>Front-end Developer Apple.Inc</h3>
+                    <p class="location text-secondary">California, United States</p>
+                </div>
+                <p class="period text-primary">Nov 2020 - Present · Full-time</p>
+                <p class="text-secondary">В начале XX века немецкие психологи провели исследования восприятия человеком
+                    окружающего мира.
+                    Они выявили естественное стремление человека найти порядок в беспорядке.</p>
+                <p class="text-secondary">Их эксперименты показали, что когда мозг обрабатывает полученные образы, он
+                    воспринимает
+                    разрозненные элементы как единое целое. Подсознательно мы пытаемся группировать похожие
+                    элементы, распознавать закономерности и таким образом упрощать сложные образы.</p>
+            </div>
+            <div class="Image experience-image"></div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-metrics">
+            <div class="skills-metrics-item">
+                <div class="skill-label text-primary">React</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skills-metrics-item">
+                <div class="skill-label text-primary">Soft skill</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skills-metrics-item">
+                <div class="skill-label text-primary">Angular</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skills-metrics-item">
+                <div class="skill-label text-primary">Motion graphics</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skills-metrics-item">
+                <div class="skill-label text-primary">HTML + CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="skills-metrics-item">
+                <div class="skill-label text-primary">UX</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 20%;"></div>
+                </div>
+            </div>
+            <div class="skills-metrics-item">
+                <div class="skill-label text-primary">Javascript</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 20%;"></div>
+                </div>
+            </div>
+            <div class="skills-metrics-item">
+                <div class="skill-label text-primary">UI</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="skills-metrics-item">
+                <div class="skill-label text-primary">Python</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 25%;"></div>
+                </div>
+            </div>
+            <div class="skills-metrics-item">
+                <div class="skill-label text-primary">3D</div>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 25%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-form">
+            <h3 class="form-header">Add new skill</h3>
+            <form action="" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="skill-name" class="text-primary">Skill name</label>
+                        <input type="text" id="skill-name" name="skill-name" class="skill-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="skill-percentage" class="text-primary">Skill proficiency percentage, %</label>
+                        <input type="number" id="skill-percentage" name="skill-percentage" min="0" max="100"
+                               class="skill-input" required>
+                    </div>
+                    <button type="submit" class="add-skill-btn">Add</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    <section id="contacts">
+        <h2>
+            Contacts
+        </h2>
+
+        <div class="contacts-group">
+            <div class="contact-card">
+                <div class="logo">
+                    <img src="./assets/logos/Pin.svg" alt="pin image logo">
+                </div>
+                <div class="contacts-info-box">
+                    <h3 class="contacts-card-header">Address</h3>
+                    <div class="contacts-description text-secondary">16 Lva Tolstogo str., Moscow</div>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <div class="logo">
+                    <img src="./assets/logos/Phone.svg" alt="Phone call logo">
+                </div>
+                <div class="contacts-info-box">
+                    <h3 class="contacts-card-header">Phone</h3>
+                    <div class="contacts-description text-secondary">+7 (000) 000 00 00</div>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <div class="logo">
+                    <img src="./assets/logos/Mail.svg" alt="mail logo">
+                </div>
+                <div class="contacts-info-box">
+                    <h3 class="contacts-card-header">E-Mail</h3>
+                    <div class="contacts-description text-secondary">myemail@yandex.ru</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="footer">
+        <div class="social-icons">
+            <a href="#"><img src="./assets/logos/Instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="./assets/logos/Github.svg" alt="Github"></a>
+            <a href="#"><img src="./assets/logos/Twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="./assets/logos/Linkedin.svg" alt="Linkedin"></a>
+        </div>
+        <span class="copyright">© 2023</span>
+    </footer>
 </div>
-
-<img class="Image" width="500px"/>
-
 </body>
 </html>
